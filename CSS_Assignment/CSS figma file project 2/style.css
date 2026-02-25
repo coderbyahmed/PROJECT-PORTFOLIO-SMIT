@@ -1,0 +1,186 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+      font-family: sans-serif;
+
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+    
+    
+}
+
+.login-box{
+width: 40%;
+height: 100%;
+background-color: #002062;
+color: white;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 2%;
+
+
+}
+
+.logo{
+    width: 300px;
+    
+    
+}
+
+
+
+h2{
+    font-size: 150%;
+    font-style: italic;
+    line-height: 75px;
+    text-decoration: underline;
+    
+}
+
+.input-box {
+    width: 100%;
+    padding: 7px;
+    margin:  0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    
+
+}
+
+.forgot{
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+    font-style: initial;
+    text-align: right;
+    
+    
+    }
+
+.signin-btn{
+    padding: 12px;
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.or{
+    text-align: center;
+    margin: 10px 0 ;
+    padding: 10px;
+}
+
+.social-btn{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.google{
+     background-color: #002062 ;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+    border-color: white;
+    margin:1px ;
+    padding: 10px;
+    border-style: solid;
+}
+
+.facebook{
+            background-color: #002062 ;
+            color: white;
+            border-style: solid ;
+            border-color: aliceblue;
+            border-radius: 25px;
+            margin: 1px;
+            padding: 10px;
+            font-weight: bolder;
+}
+
+.apple {
+            background-color: #002062 ;
+            color: white;
+            border-style: solid ;
+            border-color: aliceblue;
+            border-radius: 25px;
+            margin: 1px;
+            padding: 10px;
+            font-weight: bolder;
+}
+
+.create-account {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.create-account a {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+
+.image-side{
+    width: 60%;
+ 
+
+}
+
+.image-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+
+}
+
+@media(max-width:768px) {
+    .container {
+        flex-direction: column;
+    
+
+}    
+
+.login-box, .image-side{
+    width: 100%;
+    height: auto;
+}
+
+.login-box{
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logo{
+    margin: 0 auto 20px;
+}
+
+.input-box, .signin-btn,.social-btn{
+    font-size: 14px;
+}
+
+.image-side img {
+    height: 300px;
+    object-fit: cover;
+}
+}
+    

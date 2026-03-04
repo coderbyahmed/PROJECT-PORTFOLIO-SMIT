@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="Todo-container">
 
-            <h2>My Todo List</h2>
+<div class="main-container">
 
-            <div class="input-area">
-                <input type="text" id="input-box" placeholder="Enter task">
-                <button type="button" id="add-btn">
+    <div class="todo-container">
 
-                    Add
+        <h2>My Todo List</h2>
 
-                </button>
+        <div class="input-area">
+            <input type="text"
+                   id="todo-input"
+                   placeholder="Enter your task">
 
-            </div>
-            <ul id="todoList">
-
-            </ul>
+            <button id="add-btn">Add</button>
+            <button id="update-btn">Update</button>
         </div>
+
+        <div id="todo-parent"></div>
+
     </div>
 
-    <script src="./aap.js"></script>
+</div>
 
+<script src="app.js"></script>
 </body>
-
 </html>
